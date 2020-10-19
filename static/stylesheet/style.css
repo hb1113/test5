@@ -1,0 +1,104 @@
+body {
+    background-color : skyblue;
+}
+h1 {
+    color:blueviolet
+}
+.wrapper{
+    max-width: 960px;
+    margin; 0 auto;
+}
+div.wrapper h1{
+    text-align:center;
+    margin:100 auto;
+    font-size:2.4em;
+}
+header {
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    padding: 20px 0;
+}
+nav li {
+    display: inline-block;
+    margin-left: 20px;
+}
+nav button {
+    background: none;
+    border:0;
+    color:seagreen;
+    font-size:1em;
+    cursor: pointer;
+}
+
+.articles {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap:30px;
+}
+.article{
+    padding: 10px;
+    border: 1px solid blue;
+    position: relative;
+    padding-bottom: 40px;
+}
+.article .author {
+    background-color:greenyellow;
+    position: absolute;
+    right:0;
+    bottom:0;
+    margin:0
+}
+.article h2{
+    text-align:center;
+    font-size:1.2em;
+    color:green;
+}
+}
+.article-detail .article{
+    padding:0;
+}
+.article-detail .article img{
+    max-width:100%;
+}
+.article-detail .article P{
+    text-align:center
+}
+.site-form{
+    border:1px solid blue;
+    margin-top:60px;
+    padding:20px;
+}
+.site-form input, textarea{
+    display:block;
+    margin:20px 0 0 0;
+    padding:10px
+}
+a.highlight{
+    border: 1px solid blue;
+    padding: 10px;
+    border-radius: 4px;
+    color:blue;
+
+}
+.helptext, .helptext ul{
+    color: gray;
+    font-size: .9em;
+    margin:0 auto 20px;
+    display:block
+}
+.errorlist li{
+    color:red;
+    list-style-type:none;
+
+}
+.errorlist{
+    padding:0;
+}
+.site-form input[type="submit"]{
+    background:green;
+    border:none;
+    color:yellowgreen;
+    border-radius:4px;
+    font-size:1.2em;
+    margin:10px 0;
+}
